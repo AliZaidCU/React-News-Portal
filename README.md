@@ -1,74 +1,53 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# React News Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive React application that displays news articles fetched from a public API. The application allows users to filter articles based on categories and implements pagination to navigate through articles efficiently. Additionally, users can search for articles and save their favorite articles.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Display a list of news articles with a title, image, and summary.
+- Filter articles by categories (e.g., Business, Technology, Entertainment).
+- Pagination to navigate through different pages of articles.
+- Detailed view of articles with full content.
+- Search feature to search for articles by keywords.
+- Favorites feature to save articles.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository**:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/AliZaidCU/React_News_Portal.git
+   cd React_News_Portal
 
-### `npm test`
+2. **Install Dependencies**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   npm install
 
-### `npm run build`
+3. **Run Application**
+   
+   ```bash
+   npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+   **Home Page**:
+   The homepage displays a list of news articles with a title, image, and summary.
+   Use the category filter to filter articles by different categories.
+   Use the pagination controls at the bottom to navigate through pages of articles.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   **Search**:
+   Use the search bar to search for articles by keywords.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   **Article Detail View**:
+   Click on the "Read More" button of an article to view its detailed content.
 
-### `npm run eject`
+   **Favorites**:
+   Click on the "Add to Favorites" button on an article to save it to your favorites.
+   Navigate to the "Favorites" page to view and manage your favorite articles.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# React-News-Portal
->>>>>>> 3301b07950d62baafedc879883f864302d0f09d0
+## Technologies Used
+   1. React
+   2. Redux
+   3. Axios
+   4. React Router
+   5. Bootstrap
