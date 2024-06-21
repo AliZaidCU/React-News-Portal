@@ -20,9 +20,13 @@ A responsive React application that displays news articles fetched from a public
    cd React_News_Portal
 
 2. **Install Dependencies**
+
+   ```bash
    npm install
 
 3. **Run Application**
+   
+   ```bash
    npm start
 
 ## Usage
