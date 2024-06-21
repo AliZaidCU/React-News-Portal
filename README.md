@@ -30,18 +30,18 @@ A responsive React application that displays news articles fetched from a public
    npm start
 
 ## Usage
-   Home Page:
+   **Home Page**:
    The homepage displays a list of news articles with a title, image, and summary.
    Use the category filter to filter articles by different categories.
    Use the pagination controls at the bottom to navigate through pages of articles.
 
-   Search:
+   **Search**:
    Use the search bar to search for articles by keywords.
 
-   Article Detail View:
+   **Article Detail View**:
    Click on the "Read More" button of an article to view its detailed content.
 
-   Favorites:
+   **Favorites**:
    Click on the "Add to Favorites" button on an article to save it to your favorites.
    Navigate to the "Favorites" page to view and manage your favorite articles.
 
