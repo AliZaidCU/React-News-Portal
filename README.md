@@ -27,7 +27,6 @@ A responsive React application that displays news articles fetched from a public
 
 ## Usage
    Home Page:
-
    The homepage displays a list of news articles with a title, image, and summary.
    Use the category filter to filter articles by different categories.
    Use the pagination controls at the bottom to navigate through pages of articles.
@@ -43,36 +42,8 @@ A responsive React application that displays news articles fetched from a public
    Navigate to the "Favorites" page to view and manage your favorite articles.
 
 ## Technologies Used
-   React
-   Redux
-   Axios
-   React Router
-   Bootstrap
-
-## Project Structure
-
-   react-news-portal/
-   |-- node_modules/
-   |-- public/
-   |-- src/
-   |   |-- components/
-   |   |   |-- ArticleCard.js
-   |   |   |-- ArticleDetail.js
-   |   |   |-- ArticleList.js
-   |   |   |-- CategoryFilter.js
-   |   |   |-- Pagination.js
-   |   |   |-- SearchBar.js
-   |   |   |-- Favorites.js
-   |   |-- redux/
-   |   |   |-- store.js
-   |   |   |-- articlesSlice.js
-   |   |   |-- categoriesSlice.js
-   |   |   |-- paginationSlice.js
-   |   |   |-- favoritesSlice.js
-   |   |-- services/
-   |   |   |-- api.js
-   |   |-- App.js
-   |   |-- index.js
-   |-- package.json
-   |-- README.md
-
+   1. React
+   2. Redux
+   3. Axios
+   4. React Router
+   5. Bootstrap
